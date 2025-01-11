@@ -6,21 +6,16 @@ ops=input('you are using:\n1-android(termux)\n2-windows(command prompt)\n>>> ')
 if ops=='1':
     os.system('clear')
     os.system('pkg install python')
-    os.system('pkg install colorama')
     os.system('pkg install time')
     os.system('clear')
 elif ops=='2':
     os.system('cls')
-    os.system('pip install colorama')
     os.system('pip install python')
-    os.system('pip install art')
     os.system('pip install time')
     os.system('cls')
 else:
     print('invalid option')
 from time import sleep
-from colorama import Fore
-from art import text2art
 parts = [
     "£minik",
     "11.11.C4.12.12",
@@ -138,25 +133,25 @@ fata=['https://cyberpolice.gov.ir/node/168853','#account_has_activity_Hacking_in
 linux= [ "https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm64.zip", "https://www.guitmz.com/linux-cephei-a-nim-virus", "https://bugzilla.kernel.org/show_bug.cgi?id=199037" ]
 malware=['https://0x00sec.org/t/malware-reversing-burpsuite-keygen/5167','http://185.172.128.8/ma.exe']
 phis = [ 'http://data.phishtank.com/data/online-valid.json.bz2', 'https://ussp.usspyn.top', 'https://kimbonusister.net', 'https://dibbs.ai.arizona.edu/dibbs/azsecure-phishingwebsites-3/output_20257-21113.tar', 'https://dibbs.ai.arizona.edu/dibbs/azsecure-phishingwebsites-3/output_18823-19665.tar', 'https://ipfs.eth.aragon.network/ipfs/bafybeicli5rykqzju75bhact3z3xwhmdvx537w5jpllw56ja3jp7nthocy/nnooddvneng.html' ]
-print(Fore.RED+'10%'+'#'*10)
+print('10%'+'#'*10)
 sleep(2)
-print(Fore.YELLOW+'20%'+'#'*12)
+print('20%'+'#'*12)
 sleep(2)
-print(Fore.GREEN+'30%'+'#'*14)
+print('30%'+'#'*14)
 sleep(2)
-print(Fore.CYAN+'40%'+'#'*16)
+print('40%'+'#'*16)
 sleep(2)
-print(Fore.LIGHTMAGENTA_EX+'50%'+'#'*18)
+print('50%'+'#'*18)
 sleep(2)
-print(Fore.LIGHTBLUE_EX+'60%'+'#'*20)
+print('60%'+'#'*20)
 sleep(2)
-print(Fore.LIGHTGREEN_EX+'70%'+'#'*22)
+print('70%'+'#'*22)
 sleep(2)
-print(Fore.LIGHTBLUE_EX+'80%'+'#'*24)
+print('80%'+'#'*24)
 sleep(2)
-print(Fore.LIGHTMAGENTA_EX+'90%'+'#'*26)
+print('90%'+'#'*26)
 sleep(2)
-print(Fore.LIGHTYELLOW_EX+'100%'+'#'*28)
+print('100%'+'#'*28)
 sleep(5)
 print('\n\n\n')
 salvator_art = """
@@ -166,13 +161,13 @@ salvator_art = """
  ___) | / ___ \ | |___   \ V /   / ___ \   | |  | |_| ||  _ < 
 |____/ /_/   \_\|_____|   \_/   /_/   \_\  |_|   \___/ |_| \_\
 """
-print(Fore.RED+salvator_art)
+print(salvator_art)
 
 print('#'*62)
 print(Fore.LIGHTBLUE_EX+'1-get a mix of profane words\n2-get a sex link\n3-IP hasas\n4-creat bug\n5-get algorithm\n6-github mokhareb\n7-bug hangi\n8-"HTML bug with porn violation\n8-algorithm bugy\n10-Sensitive words mixed with sensitive IPs\n11-terrorist downloader\n12-terrorist website\n13-anti-Islamic website\n14-anti leader site\n15-jalb konandeh\n16-bug server\n17-site hacking\n18-sensitive Python virus site\n19-Sensitive translation of profanity mixed with related sensitive site\n20-Satanic website\n21-phishing violation site\n22-bug PHP\n23-sensitive virus sites\n24-porn dxprit(ds)\n25-site of the Israeli Army Organization\n26-python destructive\n27-fata destructive\n28-linux destructive\n29-malware destructive\n30-phishing destructive\n31-exit')
-print(Fore.YELLOW+'-'*10+Fore.MAGENTA+'CODED BY SALVATOR'+Fore.YELLOW+'-'*10)
+print('-'*10+'CODED BY SALVATOR'+'-'*10)
 while True:
-    choice = input(Fore.GREEN+'enter your choice: '+Fore.RESET)
+    choice = input('enter your choice: ')
 
     if choice == '2':
         ran=random.choice(links)
@@ -299,11 +294,11 @@ while True:
         print('#*'*30)
         print('#*'*30)
         print('#*'*30)
-        print(Fore.YELLOW + '#*' * 12 + Fore.MAGENTA + ' GOOD BYE ' + Fore.YELLOW + '#*' * 13)
+        print('#*' * 12 + ' GOOD BYE ' + '#*' * 13)
         print('#*'*30)
         print('#*'*30)
         print('#*'*30)
         print('#*'*30)
         break
     else:
-        print(Fore.RED+f'no item with "{Fore.YELLOW+choice+Fore.RED}" number'+Fore.RESET)
+        print(f'no item with "{choice}" number')
