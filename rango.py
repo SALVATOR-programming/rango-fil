@@ -1,7 +1,6 @@
 import random
 import os
 
-from colorama.ansi import clear_screen
 
 ops=input('you are using:\n1-android(termux)\n2-windows(command prompt)\n>>> ')
 if ops=='1':
